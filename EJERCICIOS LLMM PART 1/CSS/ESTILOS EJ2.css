@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.pagina-fondo {
+    display: flow-root;
+    padding-bottom: 6px;
+    background-image: url('../imagenes/IMAGEN 2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boton-amarillo {
+    background-color: yellow;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 8px;
+    display: inline-block;
+}
+
+.resaltado-amarillo {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 2px 5px;
+}
+
+h4 {
+    color: #c0392b;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    margin: 10px 0 13px;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 8px;
+    margin: 8px 0;
+}
+
+.seccion-google {
+    margin-top: 12px;
+    margin-bottom: 100px;
+    font-size: 8px;
+}
+
+.google-link {
+    text-decoration: none;
+    color: white;
+    background-color: yellow;
+    padding: 10px 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.capitulo4-box {
+    background-color: #6495ED;
+    border: 2px solid black;
+    padding: 10px 15px;
+    margin: 40px 0 0 17px;
+}
+
+.capitulo4-box p {
+    font-size: 8px;
+    margin: 3px 0;
+}
+
+.capitulo4-box p:first-child {
+    display: table;
+    background-color: white;
+}
